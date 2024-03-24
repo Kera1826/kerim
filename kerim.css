@@ -11,19 +11,12 @@ body {
     background-color: #f2f2f2;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 /* Header styles */
 header {
     background-color: #333;
     color: white;
     padding: 20px 0;
     text-align: center;
-  
 }
 
 header h1 {
@@ -46,13 +39,11 @@ nav ul li a {
 
 /* Section styles */
 section {
-    
     text-align: center;
 }
 
 section h2 {
     font-size: 28px;
-    
 }
 
 section p {
@@ -73,15 +64,12 @@ footer p {
 }
 
 /* Specific Section Styles */
-
-/* Specific Section Styles */
 .hero {
     background-image: url('https://aliviohealth.com/wp-content/uploads/2022/07/Managing-Mental-Health-During-COVID-19.jpg');
     background-size: cover;
     background-position: center;
     color: rgb(65, 63, 63);
     padding: 40px 20px;
-    
 }
 
 .about {
@@ -90,87 +78,86 @@ footer p {
     color: #f2f2f2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    /* You can add background image for about section if needed */
 }
+
 /* CSS for the Resources Section */
 .resources {
-    background-color: #ffffff; /* Change background color */
-    padding: 50px; /* Adjust padding as needed */
+    background-color: #ffffff;
+    padding: 50px;
 }
 
 .resources h2 {
-    font-size: 24px; /* Adjust heading font size */
-    color: #333; /* Change heading color */
+    font-size: 24px;
+    color: #333;
 }
 
 .resources ul {
-    list-style: none; /* Remove bullet points */
-    margin-top: 20px; /* Add margin between heading and list */
+    list-style: none;
+    margin-top: 20px;
 }
 
 .resources li {
-    margin-bottom: 10px; /* Add margin between list items */
+    margin-bottom: 10px;
 }
 
 .resources a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007bff; /* Change link color */
+    text-decoration: none;
+    color: #007bff;
 }
 
 .resources a:hover {
-    text-decoration: underline; /* Underline links on hover */
-    color: #0056b3; /* Change link color on hover */
+    text-decoration: underline;
+    color: #0056b3;
 }
+
 /* CSS for the Contact Us Section */
 .contact {
-    padding: 50px; /* Adjust padding as needed */
+    padding: 50px;
     text-align: center;
 }
 
 .contact h2 {
-    font-size: 24px; /* Adjust heading font size */
-    color: #333; /* Change heading color */
+    font-size: 24px;
+    color: #333;
 }
 
 .contact form {
-    margin-top: 20px; /* Add margin between heading and form */
+    margin-top: 20px;
 }
 
 .contact label {
-    display: block; /* Display labels as block elements */
-    margin-bottom: 10px; /* Add margin between labels */
-    font-weight: bold; /* Make labels bold */
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .contact input[type="text"],
 .contact input[type="email"],
 .contact textarea {
-    width: 100%; /* Make input fields and textarea full width */
-    padding: 10px; /* Add padding to input fields and textarea */
-    margin-bottom: 20px; /* Add margin between input fields */
-    border-radius: 5px; /* Add border radius to input fields and textarea */
-    border: 1px solid #ccc; /* Add border to input fields and textarea */
-    box-sizing: border-box; /* Ensure padding and border included in width */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 .contact textarea {
-    height: 150px; /* Set height of textarea */
+    height: 150px;
 }
 
 .contact button[type="submit"] {
-    background-color: #007bff; /* Change button background color */
-    color: #fff; /* Change button text color */
-    border: none; /* Remove button border */
-    padding: 10px 20px; /* Add padding to button */
-    border-radius: 5px; /* Add border radius to button */
-    cursor: pointer; /* Add cursor pointer on hover */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .contact button[type="submit"]:hover {
-    background-color: #0056b3; /* Change button background color on hover */
+    background-color: #0056b3;
 }
-
-
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
